@@ -16,8 +16,8 @@ cycle detection and explicit termination conditions.
 ## Quick start
 
 ```bash
-git clone <this-repository-url>
-cd <repository-folder>/experiments      # e.g. cd B-APF-IRRT-code/experiments
+git clone https://github.com/jjl1-good/B-APF-IRRT.git
+cd B-APF-IRRT/experiments
 ```
 
 In MATLAB (R2024b or later, base MATLAB is enough, no toolboxes required):
@@ -125,6 +125,7 @@ The scenes, start/goal pairs and obstacle sets are defined in `bair_env2d.m`
 If you use this code, please cite the manuscript above (the final reference will be added
 once it is published).
 
+- Repository: <https://github.com/jjl1-good/B-APF-IRRT>
 - Corresponding author: Bing Fu (13476039901@139.com)
 - Per-run data, the anytime histories and the figure scripts are included here so that
   every number in the paper can be re-derived.
