@@ -1,0 +1,24 @@
+# MATLAB editor/engine artefacts
+*.asv
+*.log
+slprj/
+*.slxc
+~$*
+
+# ---------------------------------------------------------------------------
+# This repository contains the source code only.
+# Per-run result tables (*.csv) and anytime convergence histories (*.mat) are
+# written by the scripts in experiments/ and are therefore not tracked; the
+# numbers reported in the paper are reproduced by running those scripts.
+# ---------------------------------------------------------------------------
+*.csv
+*.mat
+
+# Figures are regenerated from the result files by the figure scripts; the
+# published versions are distributed as supplementary material with the article.
+figures/
+
+# Editor / OS noise
+.vscode/
+.DS_Store
+Thumbs.db
